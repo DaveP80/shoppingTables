@@ -66,7 +66,7 @@ for u in urlarr:
             "tbm": "shop",
             "hl": "en",
             "gl": "us",
-            "api_key": "0b4cf9b7afb2a154e6243190653e8fafbb457e6c90e4ed64f76c777dd3f20f6e"
+            "api_key": "your_key"
             }
 
             search = GoogleSearch(params)
