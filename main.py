@@ -15,9 +15,6 @@ sheet.write('A1', 'shopping query', bold)
 sheet.write('B1', 'price', bold)
 sheet.write('C1', 'img url', bold)
  
-
-File_object = open(r"checklinks.txt", "w")
-Bad_Fileobject = open(r'bad-links.txt', "w")
 with open("relist.txt") as file_in:
     for url in file_in:
         url.strip()
